@@ -1,0 +1,30 @@
+/* Para crear un selector de tipo ID */
+/* #titulo {
+    color: crimson;
+    text-align: center;
+}
+
+.centrar {
+    text-align: center;
+}
+
+.texto-grande {
+    font-size: 20px;
+} */
+
+/* Crear un selector UNIVERSAL */
+/* * {
+    background-color: ghostwhite;
+    color: cornflowerblue;
+} */
+
+/* AGRUPAR selectores */
+/* h1, h2, p {
+    color: crimson;
+    text-align: center;
+} */
+
+/* Crear SUBCLASES */
+p.centrar {
+    text-align: center;
+}
