@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+    color: #e63946;
+}
+
+div {
+    padding: 10px; /*SIN COLOR*/
+    border: 15px solid #457b9d;
+    margin: 20px; /*SIN COLOR*/
+    background-color: #f1faee;
+    width: 300px;
+
+    /* CENTRAR ELEMENTO */
+    margin: 0 auto;
+
+    /* max-width: 100%; */
+
+    /* outline: 10px solid #a8dadc;
+    outline-offset: 10px; */
+
+    box-sizing: border-box; /*Para mantener el contenido en 300 pixeles*/
+}
