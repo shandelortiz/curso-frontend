@@ -1,0 +1,90 @@
+h1 {
+    text-align: center;
+}
+
+.variante-rojo {
+    border: 10px solid crimson;
+}
+
+.variante-rosa {
+    border: 10px solid hotpink;
+}
+
+.variante-amarillo {
+    border: 10px solid gold;
+}
+
+.variante-violeta {
+    border: 10px solid blueviolet;
+}
+
+.variante-verde {
+    border: 10px solid lime;
+}
+
+.variante-azul {
+    border: 10px solid turquoise;
+}
+
+
+
+
+.borde-punteado {
+    border-style: dotted;
+    border-width: 10px;
+}
+.borde-discontinuo {
+    border-style: dashed;
+    border-width: 10px;
+}
+.borde-solido {
+    border-style: solid;
+    border-width: 10px;
+}
+.borde-doble {
+    border-style: double;
+    border-width: 10px;
+}
+.borde-surco {
+    border-style: groove;
+    border-width: 10px;
+}
+.borde-cresta {
+    border-style: ridge;
+    border-width: 10px;
+}
+.borde-recuadro {
+    border-style: inset;
+    border-width: 10px;
+}
+.borde-recuadro-inverso {
+    border-style: outset;
+    border-width: 10px;
+}
+.sin-borde {
+    border-style: none;
+}
+.borde-oculto {
+    border-style: hidden;
+}
+.borde-mixto {
+    border-style: dotted solid dashed double;
+    border-width: 10px;
+}
+
+
+
+.redondeo-bordes {
+    border: 5px solid;
+    border-radius: 20px;
+
+}
+.redondeado {
+    border: 5px solid blueviolet;
+    border-radius: 20px 0px 10px 0px;
+}
+
+
+/* .variante-rojo, .variante-rosa, .variante-violeta {
+    color: white;
+} */
