@@ -1,0 +1,10 @@
+body {
+    background-color: dodgerblue;
+    color: cornsilk;
+    background-image: url("/leccion-05/images/fondo.png ");
+    background-repeat: no-repeat;
+}
+
+h1 {
+    background-color: dodgerblue;
+}
