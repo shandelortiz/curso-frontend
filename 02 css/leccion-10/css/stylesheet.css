@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+    color: crimson;
+}
+
+div {
+    /* FIXED para poder mantener de manera fija algun boton de chat o barra de navegacion */
+    /* position: fixed; */
+
+    /* STICKY puede quedar de manera fija una vez salga de pantalla y en el lugar en donde indiquemos */
+    position: sticky;
+
+    top: 0;
+
+    border: 3px solid firebrick;
+    /* margin: auto; PARA CENTRAR */
+}
+
+div.estatico {
+    position: static;
+    padding: 15px;
+    top: 10px;
+    border: 3px solid greenyellow;
+    background-color: whitesmoke;
+}
+
+div.relativo {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    padding: 15px;
+    border: 3px solid blueviolet;
+    background-color: whitesmoke;
+}
+div.absoluto {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 112px;
+    border: 3px solid cornflowerblue;
+    background-color: whitesmoke;
+    z-index: -1;
+}
