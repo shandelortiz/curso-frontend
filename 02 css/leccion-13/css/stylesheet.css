@@ -1,0 +1,34 @@
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 2px #a8dadc;
+    color: #e63046;
+}
+
+div.contenedor {
+    display: flex;
+    background-color: #560bad;
+
+    /* flex-direction: column;
+    flex-direction: column-reverse; */
+
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+
+    /* flex-wrap: wrap; */
+
+    flex-flow: row wrap;
+
+    /* justify-content: flex-start; Para cargarlos hacia la IZQUIERDA */
+    justify-content: center; /* Para cargarlos hacia el CENTRO */
+    /* justify-content: end; Para cargarlos hacia la DERECHA */
+    /* justify-content: space-between; Para cargarlos ESPACIO entre los ELEMENTOS */
+    /* justify-content: space-around; Para cargarlos con ESPACIO en lado DERECHO e IZQUIERDO */
+
+}
+div.contenedor > p {
+    background-color: #4895ef;
+    color: #f1faee;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+}
