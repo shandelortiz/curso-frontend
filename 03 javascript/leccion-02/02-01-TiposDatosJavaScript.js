@@ -53,16 +53,16 @@ console.log(autos);
 
 // CONCATENAR CADENAS
 var nombre = 'Juan';
-var apellido = 'Perez';
+var Apellido = 'Perez';
 
-var nombreCompleto = nombre + ' ' + apellido;
+var nombreCompleto = nombre + ' ' + Apellido;
 console.log(nombreCompleto);
 
 
 
 // VAR, LET y CONST - Tipos de varialbes
 
-let nombre;
+let Nombre;
 nombre = "Shandel";
 console.log(nombre);
 
