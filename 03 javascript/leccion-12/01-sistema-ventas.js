@@ -72,6 +72,7 @@ class Orden {
     mostrarOrden() {
         let productosOrden = '';
         for(let producto of this._productos) {
+        
             productosOrden += '\n{' + producto.toString() + '}';
         }
 
