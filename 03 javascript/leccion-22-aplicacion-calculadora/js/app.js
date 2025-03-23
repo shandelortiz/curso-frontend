@@ -10,6 +10,4 @@ function sumar() {
     } else {
         document.getElementById('resultado').innerHTML = `Resultado: ${ resultado }`;
     }
-
-    
 }
